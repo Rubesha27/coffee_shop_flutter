@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
   }
 
 //pages to display from bottom nav bar
-  final List<Widget> _pages = [ShopPage(), CartPage()];
+  final List<Widget> _pages = [const ShopPage(), CartPage()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
